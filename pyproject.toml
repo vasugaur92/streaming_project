@@ -1,0 +1,7 @@
+[project]
+name = "streaming-project"
+version = "0.1.0"
+description = "This is a real time streaming pipeline"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = []
