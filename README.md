@@ -21,3 +21,4 @@ Technologies used:
 3. Run `docker compose up -d` to set up local spark and kafka docker images.
 4. To run the server - `uv run fastapi run ./api/app.py`
 5. To generate random events: `curl localhost:8000/generate_event` or do a get request to call `localhost:8000/generate_event`
+6. `docker compose down -v` to stop the containers and delete the volumes created.
