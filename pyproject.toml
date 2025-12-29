@@ -8,4 +8,5 @@ dependencies = [
     "faker>=38.2.0",
     "fastapi[standard]>=0.121.3",
     "kafka-python>=2.3.0",
+    "pyspark[sql-kafka]>=4.0.1",
 ]

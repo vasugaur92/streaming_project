@@ -43,5 +43,5 @@ def read_event():
     )
     messages = []
     for message in consumer:
-        messages.append(message.value)
+        messages.append(json.loads(message.value))
     return {"messages": messages}

@@ -14,3 +14,10 @@ Technologies used:
 3. Spark Structured Streaming
 4. Storage Layer
 5. Dashboard using Streamlit.
+
+### How to Run
+1. Install uv - https://docs.astral.sh/uv/getting-started/installation/
+2. Run `uv sync`
+3. Run `docker compose up -d` to set up local spark and kafka docker images.
+4. To run the server - `uv run fastapi run ./api/app.py`
+5. To generate random events: `curl localhost:8000/generate_event` or do a get request to call `localhost:8000/generate_event`
